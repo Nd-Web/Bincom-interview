@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:bincom.dev)",
+      "Bash(curl:*)",
+      "Bash(python:*)",
+      "Bash(where psql:*)",
+      "Bash(winget search:*)",
+      "Bash(winget install:*)",
+      "Bash(choco --version)",
+      "Bash(choco install:*)",
+      "Bash(sqlite3 bincom_colors.db \"SELECT * FROM color_frequency ORDER BY frequency DESC;\")",
+      "Bash(pip install:*)"
+    ]
+  }
+}
